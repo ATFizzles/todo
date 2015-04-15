@@ -15,6 +15,7 @@
 		</div>
 		<!--form is going to add new task-->
 		<form class="add-new-task" autocomplete="off">
+			<!--adds input box-->
 			<input type="text" name="new-task" placeholder="Add new item..."/>
 		</form>
 	</div>

@@ -11,7 +11,7 @@
 	//if connection made...
 	else{
 		//echoes out...
-		echo "Connection made";
+		//echo "Connection made";
 	}
 	//commands $mysqli to close
 	$mysqli->close();
