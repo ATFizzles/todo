@@ -38,5 +38,21 @@
 			return false;
 		});
 	}
+
+	//if delete-button clicked...
+	$('.delete-button').click(function(){
+		//creating current_element variable
+		var current_element = $(this);
+		//creating task_id variable
+		var task_id = $(this).attr('id');
+
+		//calls post argument from add-task
+		$.post('includes/delete-task.php', {id: task_id}, function(){
+		//calls variables
+		current_element.parent().fadeOut("fast", function(){
+			$(this).remove();
+		});
+	});
+});
 </script>
 </html>
