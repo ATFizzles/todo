@@ -9,7 +9,7 @@
 	include('connect.php');
 
 	//storing all info in mysqli
-	$mysqli = new mysqli('localhost', 'root', 'root', 'tasks');
+	$mysqli = new mysqli('localhost', 'root', 'root', 'todo');
 	//mysqli queries or puts all things into database
 	$mysqli ->query("INSERT INTO tasks VALUES ('', '$task', '$date', '$time')");
 
