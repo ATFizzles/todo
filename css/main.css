@@ -1,6 +1,6 @@
 /*calling css files*/
-@import "css/reset.css";
-@import "css/normalize.css";
+@import "reset.css";
+@import "normalize.css";
 
 body{
 	font: normal 14px 'Open Sans', Arial, sans-serif;
