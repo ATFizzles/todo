@@ -3,6 +3,8 @@
 <head>
 	<title>Simple To-Do List</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 </head>
 <body>
 	<div class="wrap">
